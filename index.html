@@ -41,7 +41,13 @@
       <img src="img/WhatsApp Image 2024-08-02 at 19.23.14.jpeg" alt="Nadiva Almaghfira" width="200" class="rounded-circle img-thumbnail" />
       <h1 class="display-4">Nadiva Almaghfira</h1>
       <p class="lead">Student | Learn for Future</p>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffff" fill-opacity="1" d="M0,128L26.7,117.3C53.3,107,107,85,160,85.3C213.3,85,267,107,320,144C373.3,181,427,235,480,240C533.3,245,587,203,640,192C693.3,181,747,203,800,208C853.3,213,907,203,960,186.7C1013.3,171,1067,149,1120,165.3C1173.3,181,1227,235,1280,261.3C1333.3,288,1387,288,1413,288L1440,288L1440,320L1413.3,320C1386.7,320,1333,320,1280,320C1226.7,320,1173,320,1120,320C1066.7,320,1013,320,960,320C906.7,320,853,320,800,320C746.7,320,693,320,640,320C586.7,320,533,320,480,320C426.7,320,373,320,320,320C266.7,320,213,320,160,320C106.7,320,53,320,27,320L0,320Z"></path></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#ffff"
+          fill-opacity="1"
+          d="M0,128L26.7,117.3C53.3,107,107,85,160,85.3C213.3,85,267,107,320,144C373.3,181,427,235,480,240C533.3,245,587,203,640,192C693.3,181,747,203,800,208C853.3,213,907,203,960,186.7C1013.3,171,1067,149,1120,165.3C1173.3,181,1227,235,1280,261.3C1333.3,288,1387,288,1413,288L1440,288L1440,320L1413.3,320C1386.7,320,1333,320,1280,320C1226.7,320,1173,320,1120,320C1066.7,320,1013,320,960,320C906.7,320,853,320,800,320C746.7,320,693,320,640,320C586.7,320,533,320,480,320C426.7,320,373,320,320,320C266.7,320,213,320,160,320C106.7,320,53,320,27,320L0,320Z"
+        ></path>
+      </svg>
     </section>
     <!-- akhir jumbroton -->
 
@@ -57,8 +63,8 @@
           <div class="col-md-4">
             <p>Saya lahir di Malang pada Tanggal 26 Februari 2008, saat ini saya merupakan siswi di sebuah sekolah menengah kejuruan yakni di SMK Negeri 5 Malang. di SMKN 5 Malang Saya mengambil jurusan Rekayasa Perangkat Lunak</p>
           </div>
-          <div class="col-md-4"> 
-            <p> Saya memiliki hobi mendengarkan musik, saya suka tentang buku. saya suka novel, cerita cerita romansa, komedi maupun horor. disisi lain, saya ingin explore lebih dalam lagi tentang dunia pemograman</p>
+          <div class="col-md-4">
+            <p>Saya memiliki hobi mendengarkan musik, saya suka tentang buku. saya suka novel, cerita cerita romansa, komedi maupun horor. disisi lain, saya ingin explore lebih dalam lagi tentang dunia pemograman</p>
           </div>
         </div>
       </div>
@@ -123,33 +129,33 @@
         </div>
         <div class="row justify-content-center">
           <div class="col-md-6">
-            <form>
+            <form name="nad">
               <div class="mb-3">
                 <label for="name" class="form-label">Nama Lengkap</label>
-                <input type="text" class="form-control" id="name" aria-describedby="name" />
+                <input type="text" class="form-control" id="name" aria-describedby="name" name="nama" />
               </div>
               <div class="mb-3">
                 <label for="email" class="form-label">Email</label>
-                <input type="email" class="form-control" id="email" aria-describedby="emailHelp" />
+                <input type="email" class="form-control" id="email" aria-describedby="emailHelp" name="email" />
               </div>
               <div class="mb-3">
                 <label for="pesan" class="form-label">Pesan</label>
-                <textarea class="form-control" id="pesan" rows="3"></textarea>
+                <textarea class="form-control" id="pesan" rows="3" name="pesan"></textarea>
               </div>
               <form name="submit-to-google-sheet">
-                <input name="email" type="email" placeholder="Email" required>
+                <input name="email" type="email" placeholder="Email" required />
                 <button type="submit">Send</button>
               </form>
               <script>
-                const scriptURL = '<Shttps://script.google.com/macros/s/AKfycbw-CiL4yC6Uy8pkYVWEYqjVVMVMbo0sFOanFYklkhqlIz1rcq7NJ5cX1KSLiZdODUpiIA/execL>'
-                const form = document.forms['submit-to-google-sheet']
-              
-                form.addEventListener('submit', e => {
-                  e.preventDefault()
-                  fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-                    .then(response => console.log('Success!', response))
-                    .catch(error => console.error('Error!', error.message))
-                })
+                const scriptURL = "https://script.google.com/macros/s/AKfycbxWiqAcGENn2jIl6_qIlPaBzo6UiIoS6hYw3dV6Hq7eId-H3BRQqzk98_8NV6CurnQBkw/exec";
+                const form = document.forms["nad"];
+
+                form.addEventListener("submit", (e) => {
+                  e.preventDefault();
+                  fetch(scriptURL, { method: "POST", body: new FormData(form) })
+                    .then((response) => console.log("Success!", response))
+                    .catch((error) => console.error("Error!", error.message));
+                });
               </script>
             </form>
           </div>
@@ -173,3 +179,4 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   </body>
 </html>
+
