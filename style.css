@@ -1,20 +1,17 @@
 .jumbotron {
   padding-top: 5rem;
-  background-color: #BFF6C3;
+  background-color: #D4EBF8;  /* Ganti dengan warna D4EBF8 */
 }
 #projects {
-  background-color: #BFF6C3;
+  background-color: #D4EBF8;  /* Ganti dengan warna D4EBF8 */
 }
 .contact {
   padding-top: 2rem;
-  background-color: #BFF6C3;
-}
-section {
-  padding-top: 5rem;
+  background-color: #D4EBF8;  /* Ganti dengan warna D4EBF8 */
 }
 .navbar-custom {
-  background-color: #84d189 !important; 
+  background-color: #1F509A !important;  /* Ganti dengan warna 1F509A */
 }
 .footer-custom {
-  background-color: #84d189;
+  background-color: #1F509A;  /* Ganti dengan warna 1F509A */
 }
