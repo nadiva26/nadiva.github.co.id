@@ -1,21 +1,21 @@
 .jumbotron {
   padding-top: 5rem;
-  background-color: #D2B48C; /* Tan */
+  background-color: #D4EBF8; /* Light Blue */
 }
 
 #projects {
-  background-color: #C19A6B; /* Antique Brass */
+  background-color: #1F509A; /* Deep Blue */
 }
 
 .contact {
   padding-top: 2rem;
-  background-color: #C19A6B; /* Antique Brass */
+  background-color: #1F509A; /* Deep Blue */
 }
 
 .navbar-custom {
-  background-color: #8B4513 !important; /* Saddle Brown */
+  background-color: #1F509A !important; /* Deep Blue */
 }
 
 .footer-custom {
-  background-color: #8B4513; /* Saddle Brown */
+  background-color: #1F509A; /* Deep Blue */
 }
