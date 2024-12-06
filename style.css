@@ -1,17 +1,21 @@
 .jumbotron {
   padding-top: 5rem;
-  background-color: #AF1740;  /* Ganti dengan warna D4EBF8 */
+  background-color: #D2B48C; /* Tan */
 }
+
 #projects {
-  background-color: #AAF1740;  /* Ganti dengan warna D4EBF8 */
+  background-color: #C19A6B; /* Antique Brass */
 }
+
 .contact {
   padding-top: 2rem;
-  background-color: #AAF1740;  /* Ganti dengan warna D4EBF8 */
+  background-color: #C19A6B; /* Antique Brass */
 }
+
 .navbar-custom {
-  background-color: #1F509A !important;  /* Ganti dengan warna 1F509A */
+  background-color: #8B4513 !important; /* Saddle Brown */
 }
+
 .footer-custom {
-  background-color: #1F509A;  /* Ganti dengan warna 1F509A */
+  background-color: #8B4513; /* Saddle Brown */
 }
